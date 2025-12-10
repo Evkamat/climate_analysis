@@ -10,6 +10,7 @@ filename = sys.argv[1]
 
 climate_data = open(filename, 'r')
 
+# TODO: check for potential error outputs
 for line in climate_data:
     data = line.split(',')
 
